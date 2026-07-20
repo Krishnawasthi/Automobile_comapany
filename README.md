@@ -29,3 +29,24 @@ Managing all these entities requires a proper object-oriented design where every
 This project aims to model that system using Java.
 
 ---
+
+# 🎯 Project Goals
+
+The objective of this project is to understand and implement:
+
+- Object Creation
+- Constructors
+- Constructor Overloading
+- Constructor Chaining
+- Encapsulation
+- Inheritance
+- HAS-A Relationship
+- IS-A Relationship
+- Abstraction
+- Method Overriding
+- Runtime Polymorphism
+- Upcasting
+- Downcasting
+- Access Modifiers
+
+---
