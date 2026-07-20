@@ -154,6 +154,9 @@ After completing this project, I should be able to confidently design medium-siz
 
 ---
 
+<img width="1057" height="642" alt="image" src="https://github.com/user-attachments/assets/f5b44239-3cc7-49f0-9411-a642ae499b64" />
+
+
 ## 🚀 Status
 
 **Project Status:** 🟡 In Progress
