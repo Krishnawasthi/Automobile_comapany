@@ -68,3 +68,65 @@ Automobile Management System
 ---
 
 # ✅ Current Progress
+
+### ✔ Completed
+
+- Project Structure
+- Package Creation
+- Class Design
+- Field Design
+- Constructors
+- Constructor Overloading
+- Constructor Chaining
+- Encapsulation
+- Inheritance (IS-A)
+- HAS-A Relationships
+- Getters & Setters
+
+---
+
+### 🚧 In Progress
+
+- Business Methods
+- Department Operations
+- Employee Operations
+- Vehicle Operations
+
+---
+
+### 📅 Planned
+
+- Abstraction
+- Method Overriding
+- Runtime Polymorphism
+- Upcasting
+- Downcasting
+- Driver/Main Class
+- Complete System Testing
+
+---
+
+# 🏗️ Current Design
+
+```
+AutomobileCompany
+│
+├── Employees
+├── Departments
+├── Vehicles
+├── Customers
+└── Orders
+
+Department
+│
+├── Department Manager
+└── Employees
+
+Order
+│
+├── Customer
+└── Vehicle
+```
+
+---
+
