@@ -129,4 +129,31 @@ Order
 ```
 
 ---
+# 📖 Learning Approach
 
+This project is **not copied from any tutorial**.
+
+The goal is to develop problem-solving and object-oriented design skills by building the project step by step from scratch.
+
+Each feature is implemented only after understanding the underlying Java concept.
+
+---
+
+# 🎯 Final Objective
+
+After completing this project, I should be able to confidently design medium-sized Java applications using proper OOP principles and understand how real-world software is structured.
+
+---
+
+## 🛠️ Technologies Used
+
+- Java
+- Eclipse IDE
+- Git
+- GitHub
+
+---
+
+## 🚀 Status
+
+**Project Status:** 🟡 In Progress
