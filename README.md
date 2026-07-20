@@ -50,3 +50,21 @@ The objective of this project is to understand and implement:
 - Access Modifiers
 
 ---
+
+# 📂 Project Structure
+
+```
+Automobile Management System
+│
+├── company
+├── employee
+├── department
+├── vehicle
+├── customer
+├── order
+└── main
+```
+
+---
+
+# ✅ Current Progress
