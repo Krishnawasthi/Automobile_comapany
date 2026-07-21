@@ -56,9 +56,9 @@ public class ElectricCar extends Car {
 		 
 		super.displayVehicleDetails(); 
 		
-		System.out.println("battery Capacity : " + batteryCapacity);
-		System.out.println(" car charging  Time : " +  chargingTime);
-		System.out.println("range till car go : " +  chargingTime);
+		System.out.println("Battery Capacity : " + batteryCapacity);
+		System.out.println("Charging Time : " + chargingTime + " hours");
+		System.out.println("Range : " + range + " km");
 	 }
 	 
 	 

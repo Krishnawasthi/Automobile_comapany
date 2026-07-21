@@ -60,9 +60,8 @@ public class DepartmentManager extends Employee {
 	
 	//normal methods
 	@Override
-	public void work()
-	{
-		System.out.println(getName() + " is selling vehicles.");
+	public void work() {
+	    System.out.println(getName() + " is managing the department and supervising employees.");
 	}
 	
 	public void assignTask() {
