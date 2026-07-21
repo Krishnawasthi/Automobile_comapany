@@ -65,5 +65,11 @@ public class DepartmentManager extends Employee {
 		System.out.println(getName() + " is selling vehicles.");
 	}
 	
+	public void assignTask() {
+		System.out.println("Department Manager will assign task.");
+	}
+	public void conductMeeting() {
+		System.out.println("DepartmentManager will conductMeetings ");
+	}
 	
 }

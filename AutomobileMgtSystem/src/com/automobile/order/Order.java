@@ -89,6 +89,32 @@ public class Order {
 	
 	
 	
-	
+	// Confirm Order
+	public void confirmOrder() {
+	    System.out.println("Order " + orderId + " has been confirmed.");
+	}
+
+	// Cancel Order
+	public void cancelOrder() {
+	    System.out.println("Order " + orderId + " has been cancelled.");
+	}
+
+	// Update Order Status
+	public void updateOrderStatus() {
+	    System.out.println("Order status updated to: " + orderStatus);
+	}
+
+	// Calculate Total Amount
+	public void calculateTotalAmount() {
+	    System.out.println("Total amount to be paid: ₹" + totalAmount);
+	}
+
+	// Display Order Details
+	public void displayOrderDetails() {
+	    System.out.println("Order ID : " + orderId);
+	    System.out.println("Order Date : " + orderDate);
+	    System.out.println("Order Status : " + orderStatus);
+	    System.out.println("Total Amount : ₹" + totalAmount);
+	}
 	
 }

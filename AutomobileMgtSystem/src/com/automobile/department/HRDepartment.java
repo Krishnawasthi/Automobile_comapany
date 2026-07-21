@@ -51,7 +51,30 @@ public class HRDepartment extends Department
 
 	public void setRecruitmentBudget(double recruitmentBudget) {
 		this.recruitmentBudget = recruitmentBudget;
-	}				
+	}	
+	//methods
+	
+	public void recruitEmployee() {
+		System.out.println("HRDepartment.recruitEmployee()");
+	}
+	public void scheduleInterview() {
+		System.out.println("HRDepartment.scheduleInterview()");
+	}
+	@Override
+	public void manageDepartment() {
+		System.out.println("HR Department is recruiting new employees....");
+	}
+	
+	public void displayDepartmentDetails() {
+		System.out.println("....All th details of the HR department ");
+		super.displayDepartmentDetails();
+		System.out.println("totalEmployees hired by HRs :  " + totalEmployees);
+		System.out.println("newHires hires by HRs " +  newHires);
+		System.out.println("interviewsScheduled by HRs " + interviewsScheduled);
+		System.out.println("recruitmentBudget for HR department " + recruitmentBudget);
+		
+		
+	}
 						
 				    
 	

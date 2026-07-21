@@ -1,15 +1,21 @@
 package com.automobile.vehicle;
 
-public class Vehicle {
+public abstract  class Vehicle {
 	         
-   String vehicleId;
-   String vehicleName;
-   String model;
-   String type;
-   double price;
-   String color;
-   String manufacturingDate;
-   String status;            // In Production, Ready, Sold
+   private String vehicleId;
+   private String vehicleName;
+   private String model;
+   private String type;
+   private double price;
+   private String color;
+   private String manufacturingDate;
+   private String status;  // In Production, Ready, Sold
+   
+   
+   // Abstract method
+    public abstract void startEngine();
+   
+   
    
    public Vehicle(String vehicleId, String vehicleName, String model, String type, double price, String color, String manufacturingDate, String status){
 	   
@@ -88,5 +94,25 @@ public class Vehicle {
    public void setStatus(String status) {
 	this.status = status;
    }
+   
+   public void stopEngine() {
+	   
+	  System.out.println("stop the vehicle ");
+   }
+   public void accelerate() {
+	   System.out.println("lets accelerate");
+   }
+  
+   public void displayVehicleDetails() {
+
+	    System.out.println("Vehicle ID : " + vehicleId);
+	    System.out.println("Vehicle Name : " + vehicleName);
+	    System.out.println("Model : " + model);
+	    System.out.println("Type : " + type);
+	    System.out.println("Price : " + price);
+	    System.out.println("Color : " + color);
+	    System.out.println("Manufacturing Date : " + manufacturingDate);
+	    System.out.println("Status : " + status);
+	}
    
 }

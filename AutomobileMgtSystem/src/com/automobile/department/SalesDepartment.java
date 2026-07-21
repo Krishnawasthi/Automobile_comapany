@@ -52,5 +52,27 @@ public class SalesDepartment extends Department
 	public void setCustomersHandled(int customersHandled) {
 		this.customersHandled = customersHandled;
 	}
+	//methods
 	
+   	public void promoteVehicle() {
+		System.out.println("SalesDepartment.promoteVehicle()");
+	}
+	public void achieveSalesTarget(){
+		System.out.println("SalesDepartment.achieveSalesTarget()");
+		
+	}
+		@Override
+		public void manageDepartment() {
+			System.out.println("Sales department is  managing SalesDepartment"); 
+		}
+		
+		
+		public void displayDepartmentDetails() {
+		System.out.println("....All th details of the SalesDepartment ");
+		super.displayDepartmentDetails();
+		System.out.println("Sales are spreading to       : " +  salesRegion);
+		System.out.println("monthlySalesTarget of SalesDepartment : " + monthlySalesTarget);
+		System.out.println("monthlySalesAchieved of  SalesDepartment   : " + monthlySalesAchieved);
+		System.out.println("SalesDepartment handeled customers almost : " + customersHandled);
+  }
 }

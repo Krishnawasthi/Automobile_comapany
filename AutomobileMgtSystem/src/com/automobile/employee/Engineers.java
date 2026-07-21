@@ -99,6 +99,10 @@ public class Engineers  extends Employee {
 	{
 	  System.out.println(getName() + "is designing");
 	}
+	public void researchTechnology(){
+		
+		System.out.println("Engineers.researchTechnology()...........on Abs technology");
+	}
 	
 	@Override
 	public void work() {

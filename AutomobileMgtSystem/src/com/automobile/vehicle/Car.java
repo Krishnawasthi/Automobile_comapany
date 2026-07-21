@@ -1,9 +1,9 @@
 package com.automobile.vehicle;
 
 public class Car extends Vehicle{
-	int numberOfDoors;
-	String fuelType;
-	String transmission;
+	  private int numberOfDoors;
+	  private String fuelType;
+	  private String transmission;
 	
 	public Car(String vehicleId, String vehicleName, String model, String type, double price, 
 	    		String color, 
@@ -43,6 +43,28 @@ public class Car extends Vehicle{
 	 public void setTransmission(String transmission) {
 		 this.transmission = transmission;
 	 }
+	 //methods
+	 @Override
+	 public void startEngine() {
+		 System.out.println("start the car");
+	 }
+	 public void drive() {
+		 System.out.println("lets drive the car");
+	 }
+		 
+	 public void applyBrake() {
+		 System.out.println("traffic aheads lets break");
+	 }
+	 
+	 public void displayVehicleDetails()
+	 {
+		 super.displayVehicleDetails();
+		 System.out.println("Number of Doors : " + numberOfDoors);
+		 System.out.println("Fuel Type : " + fuelType);
+		 System.out.println("Transmission : " + transmission);
+		 
+	 }
+	
 	 
 	 
 	 

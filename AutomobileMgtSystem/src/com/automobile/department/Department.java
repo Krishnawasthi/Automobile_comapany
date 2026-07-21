@@ -2,12 +2,14 @@ package com.automobile.department;
 
 import com.automobile.employee.DepartmentManager;
 
-public class Department {
+public abstract  class Department {
 	 private String departmentId;
 	 private String departmentName;
 	 private String location;
 	 private DepartmentManager departmentManager;
-    
+      //abstract method
+	 public abstract void manageDepartment();
+	 
     public Department(String departmentId, String departmentName, String location, DepartmentManager departmentManager)
     {
     	 this.departmentId = departmentId;
@@ -42,7 +44,15 @@ public class Department {
 
 	public DepartmentManager getDepartmentManager() {
 		return departmentManager;
+	} 
+	//methods behaviours of department
+	
+	
+	public void allocateBudget() {
+		System.out.println("Department.allocateBudget()");
 	}
+	
+	
 
 	public void displayDepartmentDetails() {
 		

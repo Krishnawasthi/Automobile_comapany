@@ -52,5 +52,31 @@ public class ResearchDepartment extends Department
 	public void setTechnologyUsed(String technologyUsed) {
 		this.technologyUsed = technologyUsed;
 	}
+	//methods
+	public void developPrototype() {
+		
+		System.out.println("ResearchDepartment.developPrototype()");
+	}
+			
+	public void testNewTechnology() {
+		
+		System.out.println("ResearchDepartment.testNewTechnology()");
+	}
+	
+	@Override
+	public void manageDepartment() {
+		System.out.println("Research Department is developing new vehicle technologies."); 
+	}
+	public void displayDepartmentDetails() {
+		System.out.println("....All th details of the ResearchDepartment ");
+	
+		super.displayDepartmentDetails();
+		System.out.println("ResearchDepartment is wroking on       : " + researchProject);
+		System.out.println("researchBudget to  ResearchDepartment : " +  researchBudget);
+		System.out.println("engineersCount at  ResearchDepartment    : " +  engineersCount);
+		System.out.println("technologyUsed  in thsi project in ResearchDepartment : " + technologyUsed);
+	}					
+		   
+			
 	
 }

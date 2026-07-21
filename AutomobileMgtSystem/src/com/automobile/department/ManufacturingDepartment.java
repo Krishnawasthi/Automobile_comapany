@@ -51,7 +51,27 @@ public class ManufacturingDepartment extends Department
 	public void setProductionShift(String productionShift) {
 		this.productionShift = productionShift;
 	}
+	//methods
 	
-					
+	public void manufactureVehicle(){
+		
+		System.out.println("ManufacturingDepartment.manufactureVehicle()");
+	}
+	public void qualityInspection() {
+		System.out.println("ManufacturingDepartment.voidqualityInspection()");
+	}
+	@Override
+	public void manageDepartment() {
+		System.out.println("ManufacturingDepartment.manageDepartment() managing managerDepartment"); 
+	 }
+	public void displayDepartmentDetails() {
+		System.out.println("....All th details of theManufacturingDepartment ");
+	
+		super.displayDepartmentDetails();
+		System.out.println("productionCapacity of  Manufacturing department :  " + productionCapacity);
+		System.out.println(" machinesAvailable in Manufacturing department : " +  machinesAvailable);
+		System.out.println("workersCount at  Manufacturing department : " +  workersCount);
+		System.out.println("productionShift for Manufacturing department : " + productionShift);
+	}					
 		   
 }

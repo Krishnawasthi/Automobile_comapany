@@ -1,6 +1,6 @@
 package com.automobile.employee;
 
-public class Employee {
+public abstract  class Employee {
 	    private String empId;
 	    private String name;
 	    private int age;
@@ -8,6 +8,9 @@ public class Employee {
 	    private String phoneNumber;
 	    private String email;
 	
+	    
+    //abstract method 
+	  public abstract void work();
 	    
 	//constructor
 	public Employee(String empId){
@@ -121,12 +124,7 @@ public class Employee {
     {
        System.out.println(name + " logged out successfully.");
     }
-    public void work()
-    {
-    	
-       System.out.println(name + " is working.");
-    	
-    }
+   
     
     public void displayEmployeeDetails()
     {

@@ -1,18 +1,21 @@
 package com.automobile.vehicle;
 
-public class ElectricCar extends Vehicle {
-    String batteryCapacity;
-     int   chargingTime;
-     int  range;
+public class ElectricCar extends Car {
+	  private String batteryCapacity;
+	  private int   chargingTime;
+	  private int   range;
      
     public  ElectricCar(String vehicleId, String vehicleName, String model, String type, double price, 
 	    		String color, 
 	    		String manufacturingDate,
 	    		String status,String batteryCapacity,
                 int   chargingTime,
-                int  range){
+                int  range,
+                int numberOfDoors,
+		        String fuelType,
+		       String transmission){
 	 	   
-	       super(vehicleId, vehicleName,model,type,price,color,manufacturingDate, status);
+	       super(vehicleId, vehicleName,model,type,price,color,manufacturingDate, status, numberOfDoors, fuelType, transmission);
 	       
 	 	   this.batteryCapacity = batteryCapacity;
 	 	   this.chargingTime  = chargingTime;
@@ -43,5 +46,29 @@ public class ElectricCar extends Vehicle {
 	 public void setRange(int range) {
 		 this.range = range;
 	 }
-     
+     //methods
+	 @Override
+	 public void startEngine() {
+		System.out.println("Electric car started Silently");
+	 }
+	 @Override
+	 public void displayVehicleDetails() {
+		 
+		super.displayVehicleDetails(); 
+		
+		System.out.println("battery Capacity : " + batteryCapacity);
+		System.out.println(" car charging  Time : " +  chargingTime);
+		System.out.println("range till car go : " +  chargingTime);
+	 }
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
 }

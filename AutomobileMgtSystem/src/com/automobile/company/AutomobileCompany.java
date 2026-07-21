@@ -90,7 +90,33 @@ public class AutomobileCompany
 		
 		this.department = department;
 	}
-	
+	//methods for company
+	// Hire Employee
+	public void hireEmployee() {
+	    System.out.println("Employee has been hired successfully.");
+	}
+
+	// Remove Employee
+	public void removeEmployee() {
+	    System.out.println("Employee has been removed from the company.");
+	}
+
+	// Manufacture Vehicle
+	public void manufactureVehicle() {
+	    System.out.println("Vehicle is being manufactured.");
+	}
+
+	// Sell Vehicle
+	public void sellVehicle() {
+	    System.out.println("Vehicle has been sold successfully.");
+	}
+
+	// Deliver Vehicle
+	public void deliverVehicle() {
+	    System.out.println("Vehicle has been delivered to the customer.");
+	}
+
+
 	//method to accessing the all the details of this method
 	public void displayCompanyDetails()
 	{
