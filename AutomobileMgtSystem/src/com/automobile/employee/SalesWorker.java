@@ -60,6 +60,21 @@ public class SalesWorker extends Employee{
 		
 		this.salesRegion =  salesRegion;
 	}
+	//method for sales workers
 	
+	public void sellVehicle()
+	{
+		System.out.println(" sales workers have sold multiple vehicle");
+	}
+	public void generateInvoice()
+	{
+		System.out.println("the invoice of a sold vehicle is generated");
+	}
+	
+	@Override
+	public void work()
+	{
+		System.out.println(getName() + " is selling vehicles.");
+	}
 	
 }

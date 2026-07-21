@@ -107,6 +107,31 @@ public class Employee {
     	this.email = email;
     }
     
+    //methods for different Behaviour
     
-}
+    public void login() 
+    {
+    	
+       System.out.println(name + " logged into the system.");
+    	
+    }
+    
+    public void logout()
+    
+    {
+       System.out.println(name + " logged out successfully.");
+    }
+    public void work()
+    {
+    	
+       System.out.println(name + " is working.");
+    	
+    }
+    
+    public void displayEmployeeDetails()
+    {
+    	
+    	
+    }
+    }
   

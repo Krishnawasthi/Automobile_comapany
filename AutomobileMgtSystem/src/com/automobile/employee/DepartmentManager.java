@@ -58,5 +58,12 @@ public class DepartmentManager extends Employee {
 		this.bonus =  bonus;
 	}
 	
+	//normal methods
+	@Override
+	public void work()
+	{
+		System.out.println(getName() + " is selling vehicles.");
+	}
+	
 	
 }

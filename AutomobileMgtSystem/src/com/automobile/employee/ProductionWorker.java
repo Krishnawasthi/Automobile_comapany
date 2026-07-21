@@ -60,6 +60,23 @@ public class ProductionWorker extends Employee {
 		this.vehiclesProduced =  vehiclesProduced;
 	}
 	
+	//methods are here
+	
+	public void assembleVehicle() 
+	{
+		System.out.println(getName() + " is aassembling vehicles. ");
+	}
+	
+	public void inspectVehicle()
+	{
+		System.out.println(getName() + " is inspecting vehicles. ");
+	}
+	@Override
+	public void work()
+	{
+	    System.out.println(getName() + " is assembling and inspecting vehicles.");
+	}
+	
 	
 	
 }

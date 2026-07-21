@@ -93,8 +93,17 @@ public class Engineers  extends Employee {
 		}
 	}
 	
+	//methods for different Behaviour
 	
+	public void designVehicle()
+	{
+	  System.out.println(getName() + "is designing");
+	}
 	
+	@Override
+	public void work() {
+	    System.out.println(getName() + " is designing and testing new vehicles.");
+	}
 	
 	
 	
