@@ -159,4 +159,44 @@ After completing this project, I should be able to confidently design medium-siz
 
 ## 🚀 Status
 
-**Project Status:** 🟡 In Progress
+## 📖 What I Learned
+
+Building this project helped me move beyond theory and understand how Object-Oriented Programming works in a real-world application.
+
+During this project, I learned:
+
+- Designing a real-world application using multiple Java packages.
+- Creating classes and objects to represent real-world entities.
+- Constructor overloading and constructor chaining using `this()` and `super()`.
+- Implementing **Encapsulation** using private fields and getter/setter methods.
+- Implementing **Inheritance** to reduce code duplication.
+- Understanding the **HAS-A relationship** (Composition/Aggregation).
+- Using **Method Overriding** to provide different behavior in child classes.
+- Implementing **Abstraction** using abstract classes and abstract methods.
+- Applying **Runtime Polymorphism** through upcasting.
+- Understanding **Downcasting** and when it is required.
+- Organizing code into reusable and maintainable modules.
+- Building a complete Core Java project from scratch.
+
+---
+
+## 🚧 Challenges & Mistakes I Faced
+
+While developing this project, I encountered several challenges that helped me improve my Java fundamentals.
+
+- Initially, I struggled with constructor chaining using `this()` and `super()`.
+- I mistakenly kept many fields `public` instead of making them `private` for proper encapsulation.
+- I was confused about when getter and setter methods were actually needed.
+- I faced difficulties understanding the difference between **IS-A** and **HAS-A** relationships.
+- I encountered constructor mismatch errors after modifying parent class constructors.
+- I experienced `ClassCastException` while learning downcasting and understood that an object can only be downcast to its actual type.
+- I initially thought downcasting was required for every child object, but later learned it is only needed to access child-specific members.
+- I learned how runtime polymorphism works through parent references pointing to child objects.
+- I improved my understanding of organizing a project into multiple packages instead of writing everything in one class.
+- I also solved several Git issues related to commits, pushing, merging, and repository management while developing this project.
+
+---
+
+## 🎯 Conclusion
+
+This project significantly strengthened my Core Java fundamentals. It gave me practical experience in applying Object-Oriented Programming concepts to a real-world scenario and improved my confidence in designing Java applications. It also enhanced my understanding of code organization, debugging, and version control using Git and GitHub.
